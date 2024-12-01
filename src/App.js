@@ -16,10 +16,6 @@ function App() {
   const ps = localStorage.getItem("prodPassword");
   return (
     <div className="App">
-      https://fakeapi.platzi.com/<br></br>
-      https://www.geeksforgeeks.org/implementing-add-to-cart-functionality-using-redux-toolkit-in-react/<br></br>
-      https://blog.openreplay.com/building-a-shopping-cart-in-react-with-redux-tools/<br></br>
-      https://codesandbox.io/s/build-a-shopping-cart-with-react-redux-exodg?file=/src/actions/index.js
       <NavBar />
       <Routes>
         <Route path="/" element={(em && ps) ? <Home /> : <LogIn />} />
